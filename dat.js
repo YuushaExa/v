@@ -8,7 +8,7 @@ document.getElementById("CloudSave").addEventListener("click", function() {
   fetch("https://api.github.com/repos/YuushaExa/v/contents/users/localStorage.json", {
     method: "PUT",
     headers: {
-      Authorization: "Bearer " + process.env.GITHUB_TOKEN
+      Authorization: "Bearer " + process.env.PUBLIC_GITHUB_TOKEN
     },
     body: formData,
   })
