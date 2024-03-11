@@ -1,14 +1,13 @@
 {
-    "headers": [
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
         {
-            "source": "/*",
-            "destination": "/*",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "max-age=3600"
-                }
-            ]
+          "key": "Cache-Control",
+          "value": "max-age=3600"
         }
-    ]
+      ]
+    }
+  ]
 }
