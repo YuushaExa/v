@@ -6,10 +6,6 @@
         {
           "key": "Cache-Control",
           "value": "max-age=10"
-        },
-        {
-          "key": "Content-Length",
-          "value": "10000"
         }
       ]
     }
