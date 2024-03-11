@@ -20,7 +20,7 @@
           "value": "max-age=10"
         },
        {
-          "key": "ETag",
+          "key": "etag",
           "value": "*"
         }
       ]
