@@ -6,6 +6,10 @@
         {
           "key": "Cache-Control",
           "value": "max-age=10"
+        },
+             {
+          "key": "ETag",
+          "value": "$1"
         }
       ]
     }
