@@ -19,9 +19,9 @@
           "key": "Cache-Control",
           "value": "max-age=10"
         },
-          {
-          "key": "Referrer-Policy",
-          "value": "no-referrer-when-downgrade"
+       {
+          "key": "ETag",
+          "value": "*"
         }
       ]
     }
