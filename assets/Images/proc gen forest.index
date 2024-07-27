@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Scene</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="forestCanvas" width="800" height="600"></canvas>
+    <script src="forest.js"></script>
+</body>
+</html>
+ 
+
+
+const canvas = document.getElementById('forestCanvas');
+const ctx = canvas.getContext('2d');
+
+// Define the size of each unscaled tile
+const tileSize = 48;
+
+// Scale factor
+const scale = 3;
+
+// Set the scaled width and height of the canvas
+canvas.width = canvas.width * scale;
+canvas.height = canvas.height * scale;
+
+// Scale the context
+ctx.scale(scale, scale);
+
+// Load tree and tilesheet images
+const treeImg = new Image();
+treeImg.src = 'https://opengameart.org/sites/default/files/green%20trees_0.png';
+
+const groundImg = new Image();
+groundImg.src = 'https://opengameart.org/sites/default/files/textures_6.png';
+
+// Draw specific portion of tilesheet as ground tile
+function drawGroundTile(x, y) {
+    ctx.drawImage(groundImg, 0, 0, 60, 60, x, y, tileSize, tileSize);
+}
+
+// Draw tree tile
+function drawTree(x, y) {
+    ctx.drawImage(treeImg, 0, 0, 120, 130, x, y, tileSize, tileSize);
+}
+
+// Generate forest with random tree placement
+function generateForest() {
+    for (let y = 0; y < canvas.height; y += tileSize) {
+        for (let x = 0; x < canvas.width; x += tileSize) {
+            drawGroundTile(x, y);
+            if (Math.random() < 0.3) { // Adjust the probability as needed
+                drawTree(x, y);
+            }
+        }
+    }
+}
+
+// Ensure images are loaded before generating forest
+treeImg.onload = function() {
+    groundImg.onload = function() {
+        generateForest();
+    };
+};
