@@ -1,0 +1,4112 @@
+[
+    {
+        "model": "base.tag",
+        "pk": 206,
+        "fields": {
+            "name": "4-koma",
+            "description": "A manga in the 'yonkoma' format, which consists of four equal-sized panels arranged in a vertical strip.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 710,
+        "fields": {
+            "name": "Achromatic",
+            "description": "Contains animation that is primarily done in black and white.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 156,
+        "fields": {
+            "name": "Achronological Order",
+            "description": "Chapters or episodes do not occur in chronological order.",
+            "category": "Setting-Time",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1612,
+        "fields": {
+            "name": "Acrobatics",
+            "description": "The art of jumping, tumbling, and balancing. Often paired with trapeze, trampolining, tightropes, or general gymnastics.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 548,
+        "fields": {
+            "name": "Acting",
+            "description": "Centers around actors or the acting industry.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1052,
+        "fields": {
+            "name": "Adoption",
+            "description": "Features a character who has been adopted by someone who is neither of their biological parents.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 505,
+        "fields": {
+            "name": "Advertisement",
+            "description": "Produced in order to promote the products of a certain company.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 147,
+        "fields": {
+            "name": "Afterlife",
+            "description": "Partly or completely set in the afterlife.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 138,
+        "fields": {
+            "name": "Age Gap",
+            "description": "Prominently features romantic relations between people with a significant age difference.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 488,
+        "fields": {
+            "name": "Age Regression",
+            "description": "Prominently features a character who was returned to a younger state.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 334,
+        "fields": {
+            "name": "Agender",
+            "description": "Prominently features agender characters.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 909,
+        "fields": {
+            "name": "Agriculture",
+            "description": "Prominently features agriculture practices.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 279,
+        "fields": {
+            "name": "Ahegao",
+            "description": "Features a character making an exaggerated orgasm face.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 167,
+        "fields": {
+            "name": "Airsoft",
+            "description": "Centers around the sport of airsoft.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1291,
+        "fields": {
+            "name": "Alchemy",
+            "description": "Features character(s) who practice alchemy.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 191,
+        "fields": {
+            "name": "Aliens",
+            "description": "Prominently features extraterrestrial lifeforms.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 146,
+        "fields": {
+            "name": "Alternate Universe",
+            "description": "Features multiple alternate universes in the same series.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 314,
+        "fields": {
+            "name": "American Football",
+            "description": "Centers around the sport of American football.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 240,
+        "fields": {
+            "name": "Amnesia",
+            "description": "Prominently features a character(s) with memory loss.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 652,
+        "fields": {
+            "name": "Amputation",
+            "description": "Features amputation or amputees.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 490,
+        "fields": {
+            "name": "Anachronism",
+            "description": "Prominently features elements that are out of place in the historical period the work takes place in, particularly modern elements in a historical setting.",
+            "category": "Setting-Time",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 185,
+        "fields": {
+            "name": "Anal Sex",
+            "description": "Features sexual penetration of the anal cavity.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1598,
+        "fields": {
+            "name": "Ancient China",
+            "description": "Setting in ancient china, does not apply to fantasy settings.",
+            "category": "Setting-Time",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1068,
+        "fields": {
+            "name": "Angels",
+            "description": "Prominently features spiritual beings usually represented with wings and halos and believed to be attendants of God.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 433,
+        "fields": {
+            "name": "Animals",
+            "description": "Prominently features animal characters in a leading role.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 471,
+        "fields": {
+            "name": "Anthology",
+            "description": "A collection of separate works collated into a single release.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1304,
+        "fields": {
+            "name": "Anthropomorphism",
+            "description": "Contains non-human character(s) that have attributes or characteristics of a human being.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 104,
+        "fields": {
+            "name": "Anti-Hero",
+            "description": "Features a protagonist who lacks conventional heroic attributes and may be considered a borderline villain.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 251,
+        "fields": {
+            "name": "Archery",
+            "description": "Centers around the sport of archery, or prominently features the use of archery in combat.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 629,
+        "fields": {
+            "name": "Armpits",
+            "description": "Features the sexual depiction or stimulation of a character's armpits.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1681,
+        "fields": {
+            "name": "Aromantic",
+            "description": "Features a character who experiences little to no romantic attraction.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1578,
+        "fields": {
+            "name": "Arranged Marriage",
+            "description": "Features two characters made to marry each other, usually by their family.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 517,
+        "fields": {
+            "name": "Artificial Intelligence",
+            "description": "Intelligent non-organic machines that work and react similarly to humans.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 622,
+        "fields": {
+            "name": "Asexual",
+            "description": "Features a character who isn't sexually attracted to people of any sex or gender.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 315,
+        "fields": {
+            "name": "Ashikoki",
+            "description": "Footjob; features stimulation of genitalia by feet.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 651,
+        "fields": {
+            "name": "Asphyxiation",
+            "description": "Features breath play.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 322,
+        "fields": {
+            "name": "Assassins",
+            "description": "Centers around characters who murder people as a profession.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 623,
+        "fields": {
+            "name": "Astronomy",
+            "description": "Relating or centered around the study of celestial objects and phenomena, space, or the universe.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 264,
+        "fields": {
+            "name": "Athletics",
+            "description": "Centers around sporting events that involve competitive running, jumping, throwing, or walking.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 364,
+        "fields": {
+            "name": "Augmented Reality",
+            "description": "Prominently features events with augmented reality as the main setting.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 519,
+        "fields": {
+            "name": "Autobiographical",
+            "description": "Real stories and anecdotes written by the author about their own life.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 355,
+        "fields": {
+            "name": "Aviation",
+            "description": "Regarding the flying or operation of aircraft.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 235,
+        "fields": {
+            "name": "Badminton",
+            "description": "Centers around the sport of badminton.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 110,
+        "fields": {
+            "name": "Band",
+            "description": "Main cast is a group of musicians.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 161,
+        "fields": {
+            "name": "Bar",
+            "description": "Partly or completely set in a bar.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 149,
+        "fields": {
+            "name": "Baseball",
+            "description": "Centers around the sport of baseball.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 192,
+        "fields": {
+            "name": "Basketball",
+            "description": "Centers around the sport of basketball.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 101,
+        "fields": {
+            "name": "Battle Royale",
+            "description": "Centers around a fierce group competition, often violent and with only one winner.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 239,
+        "fields": {
+            "name": "Biographical",
+            "description": "Based on true stories of real persons living or dead, written by another.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 294,
+        "fields": {
+            "name": "Bisexual",
+            "description": "Features a character who is romantically or sexually attracted to people of more than one sex or gender.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 309,
+        "fields": {
+            "name": "Blackmail",
+            "description": "Features a character blackmailing another into performing sexual acts.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1492,
+        "fields": {
+            "name": "Board Game",
+            "description": "Centers around characters playing board games.",
+            "category": "Theme-Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1489,
+        "fields": {
+            "name": "Boarding School",
+            "description": "Features characters attending a boarding school.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 639,
+        "fields": {
+            "name": "Body Horror",
+            "description": "Features characters who undergo horrific transformations or disfigurement, often to their own detriment.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 154,
+        "fields": {
+            "name": "Body Swapping",
+            "description": "Centers around individuals swapping bodies with one another.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 246,
+        "fields": {
+            "name": "Bondage",
+            "description": "Features BDSM, with or without the use of accessories.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 126,
+        "fields": {
+            "name": "Boobjob",
+            "description": "Features the stimulation of male genitalia by breasts.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1632,
+        "fields": {
+            "name": "Bowling",
+            "description": "Centers around the sport of Bowling.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 169,
+        "fields": {
+            "name": "Boxing",
+            "description": "Centers around the sport of boxing.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 75,
+        "fields": {
+            "name": "Boys' Love",
+            "description": "Prominently features romance between two males, not inherently sexual.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 171,
+        "fields": {
+            "name": "Bullying",
+            "description": "Prominently features the use of force for intimidation, often in a school setting.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 812,
+        "fields": {
+            "name": "Butler",
+            "description": "Prominently features a character who is a butler.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 204,
+        "fields": {
+            "name": "Calligraphy",
+            "description": "Centers around the art of calligraphy.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 870,
+        "fields": {
+            "name": "Cannibalism",
+            "description": "Prominently features the act of consuming another member of the same species as food.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 178,
+        "fields": {
+            "name": "Card Battle",
+            "description": "Centers around individuals competing in card games.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 10,
+        "fields": {
+            "name": "Cars",
+            "description": "Centers around the use of automotive vehicles.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 632,
+        "fields": {
+            "name": "Centaur",
+            "description": "Prominently features a character with a human upper body and the lower body of a horse.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1573,
+        "fields": {
+            "name": "Cervix Penetration",
+            "description": "A sexual act in which the cervix is visibly penetrated.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 90,
+        "fields": {
+            "name": "CGI",
+            "description": "Prominently features scenes created with computer-generated imagery.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 646,
+        "fields": {
+            "name": "Cheerleading",
+            "description": "Centers around the activity of cheerleading.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 324,
+        "fields": {
+            "name": "Chibi",
+            "description": "Features \"super deformed\" character designs with smaller, rounder proportions and a cute look.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 774,
+        "fields": {
+            "name": "Chimera",
+            "description": "Features a beast made by combining animals, usually with humans.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 267,
+        "fields": {
+            "name": "Chuunibyou",
+            "description": "Prominently features a character with \"Middle School 2nd Year Syndrome\", who either acts like a know-it-all adult or falsely believes they have special powers.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 476,
+        "fields": {
+            "name": "Circus",
+            "description": "Prominently features a circus.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1403,
+        "fields": {
+            "name": "Class Struggle",
+            "description": "Contains conflict born between the different social classes. Generally between an dominant elite and a suffering oppressed group.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 227,
+        "fields": {
+            "name": "Classic Literature",
+            "description": "Discusses or adapts a work of classic world literature.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1673,
+        "fields": {
+            "name": "Classical Music",
+            "description": "Centers on the musical style of classical, not to be applied to anime that use classical in its soundtrack.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1342,
+        "fields": {
+            "name": "Clone",
+            "description": "Prominently features a character who is an artificial exact copy of another organism.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1537,
+        "fields": {
+            "name": "Coastal",
+            "description": "Story prominently takes place near the beach or around a coastal area/town. Setting is near the ocean.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 404,
+        "fields": {
+            "name": "College",
+            "description": "Partly or completely set in a college or university.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 102,
+        "fields": {
+            "name": "Coming of Age",
+            "description": "Centers around a character's transition from childhood to adulthood.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 456,
+        "fields": {
+            "name": "Conspiracy",
+            "description": "Contains one or more factions controlling or attempting to control the world from the shadows.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 636,
+        "fields": {
+            "name": "Cosmic Horror",
+            "description": "A type of horror that emphasizes human insignificance in the grand scope of cosmic reality; fearing the unknown and being powerless to fight it.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 328,
+        "fields": {
+            "name": "Cosplay",
+            "description": "Features dressing up as a different character or profession.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1648,
+        "fields": {
+            "name": "Cowboys",
+            "description": "Features Western or Western-inspired cowboys.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 648,
+        "fields": {
+            "name": "Crime",
+            "description": "Centers around unlawful activities punishable by the state or other authority.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1589,
+        "fields": {
+            "name": "Criminal Organization",
+            "description": "Prominently features a group of people who commit crimes for illicit or violent purposes.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 186,
+        "fields": {
+            "name": "Crossdressing",
+            "description": "Prominently features a character dressing up as the opposite sex.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 158,
+        "fields": {
+            "name": "Crossover",
+            "description": "Centers around the placement of two or more otherwise discrete fictional characters, settings, or universes into the context of a single story.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 586,
+        "fields": {
+            "name": "Cult",
+            "description": "Features a social group with unorthodox religious, spiritual, or philosophical beliefs and practices.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 326,
+        "fields": {
+            "name": "Cultivation",
+            "description": "Features characters using training, often martial arts-related, and other special methods to cultivate life force and gain strength or immortality.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1273,
+        "fields": {
+            "name": "Cumflation",
+            "description": "The stomach area expands outward like a balloon due to being filled specifically with semen.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 135,
+        "fields": {
+            "name": "Cunnilingus",
+            "description": "Features oral sex performed on female genitalia.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1063,
+        "fields": {
+            "name": "Cute Boys Doing Cute Things",
+            "description": "Centers around male characters doing cute activities, usually with little to no emphasis on drama and conflict.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 92,
+        "fields": {
+            "name": "Cute Girls Doing Cute Things",
+            "description": "Centers around female characters doing cute activities, usually with little to no emphasis on drama and conflict.\n",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 108,
+        "fields": {
+            "name": "Cyberpunk",
+            "description": "Set in a future of advanced technological and scientific achievements that have resulted in social disorder.",
+            "category": "Theme-Sci-Fi",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 801,
+        "fields": {
+            "name": "Cyborg",
+            "description": "Prominently features a human character whose physiological functions are aided or enhanced by artificial means.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 151,
+        "fields": {
+            "name": "Cycling",
+            "description": "Centers around the sport of cycling.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 209,
+        "fields": {
+            "name": "Dancing",
+            "description": "Centers around the art of dance.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 615,
+        "fields": {
+            "name": "Death Game",
+            "description": "Features characters participating in a game, where failure results in death.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1234,
+        "fields": {
+            "name": "Deepthroat",
+            "description": "Features oral sex where the majority of the erect male genitalia is inside another person's mouth, usually stimulating some gagging in the back of their throat.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 129,
+        "fields": {
+            "name": "Defloration",
+            "description": "Features a female character who has never had sexual relations (until now).",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 395,
+        "fields": {
+            "name": "Delinquents",
+            "description": "Features characters with a notorious image and attitude, sometimes referred to as \"yankees\".",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 15,
+        "fields": {
+            "name": "Demons",
+            "description": "Prominently features malevolent otherworldly creatures.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 654,
+        "fields": {
+            "name": "Denpa",
+            "description": "Works that feature themes of social dissociation, delusions, and other issues like suicide, bullying, self-isolation, paranoia, and technological necessity in daily lives. Classic iconography: telephone poles, rooftops, and trains.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1453,
+        "fields": {
+            "name": "Desert",
+            "description": "Prominently features a desert environment.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 694,
+        "fields": {
+            "name": "Detective",
+            "description": "Features a character who investigates and solves crimes.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1038,
+        "fields": {
+            "name": "DILF",
+            "description": "Features sexual intercourse with older men.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 704,
+        "fields": {
+            "name": "Dinosaurs",
+            "description": "Prominently features Dinosaurs, prehistoric reptiles that went extinct millions of years ago.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1219,
+        "fields": {
+            "name": "Disability",
+            "description": "A work that features one or more characters with a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits the person's ability to engage in certain tasks or actions.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 536,
+        "fields": {
+            "name": "Dissociative Identities",
+            "description": "A case where one or more people share the same body.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1511,
+        "fields": {
+            "name": "Double Penetration",
+            "description": "A sexual act in which the vagina/anus are penetrated by two penises/toys.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 224,
+        "fields": {
+            "name": "Dragons",
+            "description": "Prominently features mythical reptiles which generally have wings and can breathe fire.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 118,
+        "fields": {
+            "name": "Drawing",
+            "description": "Centers around the art of drawing, including manga and doujinshi.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 489,
+        "fields": {
+            "name": "Drugs",
+            "description": "Prominently features the usage of drugs such as opioids, stimulants, hallucinogens etc.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 658,
+        "fields": {
+            "name": "Dullahan",
+            "description": "Prominently features a character who is a Dullahan, a creature from Irish Folklore with a head that can be detached from its main body.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 604,
+        "fields": {
+            "name": "Dungeon",
+            "description": "Prominently features a dungeon environment.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 217,
+        "fields": {
+            "name": "Dystopian",
+            "description": "Partly or completely set in a society characterized by poverty, squalor or oppression.",
+            "category": "Setting-Time",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 792,
+        "fields": {
+            "name": "E-Sports",
+            "description": "Prominently features professional video game competitions, tournaments, players, etc.",
+            "category": "Theme-Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1667,
+        "fields": {
+            "name": "Eco-Horror",
+            "description": "Utilizes a horrifying depiction of ecology to explore man and its relationship with nature.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 248,
+        "fields": {
+            "name": "Economics",
+            "description": "Centers around the field of economics.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 140,
+        "fields": {
+            "name": "Educational",
+            "description": "Primary aim is to educate the audience.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1666,
+        "fields": {
+            "name": "Elderly Protagonist",
+            "description": "The protagonist is either over 60 years of age, has an elderly appearance, or, in the case of non-humans, is considered elderly for their species.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 598,
+        "fields": {
+            "name": "Elf",
+            "description": "Prominently features a character who is an elf.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 105,
+        "fields": {
+            "name": "Ensemble Cast",
+            "description": "Features a large cast of characters with (almost) equal screen time and importance to the plot.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 342,
+        "fields": {
+            "name": "Environmental",
+            "description": "Concern with the state of the natural world and how humans interact with it.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 193,
+        "fields": {
+            "name": "Episodic",
+            "description": "Features story arcs that are loosely tied or lack an overarching plot.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 482,
+        "fields": {
+            "name": "Ero Guro",
+            "description": "Japanese literary and artistic movement originating in the 1930's. Works have a focus on grotesque eroticism, sexual corruption, and decadence.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 310,
+        "fields": {
+            "name": "Espionage",
+            "description": "Prominently features characters infiltrating an organization in order to steal sensitive information.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1564,
+        "fields": {
+            "name": "Estranged Family",
+            "description": "At least one family member of the MC intentionally distances themselves or a family distances themselves from a person related to the MC.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 901,
+        "fields": {
+            "name": "Exhibitionism",
+            "description": "Features the act of exposing oneself in public for sexual pleasure.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 130,
+        "fields": {
+            "name": "Facial",
+            "description": "Features sexual ejaculation onto an individual's face.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1455,
+        "fields": {
+            "name": "Fairy",
+            "description": "Prominently features a character who is a fairy.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 400,
+        "fields": {
+            "name": "Fairy Tale",
+            "description": "This work tells a fairy tale, centers around fairy tales, or is based on a classic fairy tale.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1657,
+        "fields": {
+            "name": "Fake Relationship",
+            "description": "When two characters enter a fake relationship that mutually benefits one or both involved.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 87,
+        "fields": {
+            "name": "Family Life",
+            "description": "Centers around the activities of a family unit.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 410,
+        "fields": {
+            "name": "Fashion",
+            "description": "Centers around the fashion industry.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 631,
+        "fields": {
+            "name": "Feet",
+            "description": "Features the sexual depiction or stimulation of a character's feet.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 134,
+        "fields": {
+            "name": "Fellatio",
+            "description": "Blowjob; features oral sex performed on male genitalia.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 23,
+        "fields": {
+            "name": "Female Harem",
+            "description": "Main cast features the protagonist plus several female characters who are romantically interested in them.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 98,
+        "fields": {
+            "name": "Female Protagonist",
+            "description": "Main character is female.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1456,
+        "fields": {
+            "name": "Femboy",
+            "description": "Features a boy who exhibits characteristics or behaviors considered in many cultures to be typical of girls.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1146,
+        "fields": {
+            "name": "Femdom",
+            "description": "Female Dominance. Features sexual acts with a woman in a dominant position.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1132,
+        "fields": {
+            "name": "Fencing",
+            "description": "Centers around the sport of fencing.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1422,
+        "fields": {
+            "name": "Filmmaking",
+            "description": "Centers around the art of filmmaking.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 613,
+        "fields": {
+            "name": "Firefighters",
+            "description": "Centered around the life and activities of rescuers specialised in firefighting.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 212,
+        "fields": {
+            "name": "Fishing",
+            "description": "Centers around the sport of fishing.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1659,
+        "fields": {
+            "name": "Fisting",
+            "description": "A sexual activity that involves inserting one or more hands into the vagina or rectum.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 170,
+        "fields": {
+            "name": "Fitness",
+            "description": "Centers around exercise with the aim of improving physical health.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 242,
+        "fields": {
+            "name": "Flash",
+            "description": "Created using Flash animation techniques.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 136,
+        "fields": {
+            "name": "Flat Chest",
+            "description": "Features a female character with smaller-than-average breasts.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 142,
+        "fields": {
+            "name": "Food",
+            "description": "Centers around cooking or food appraisal.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 148,
+        "fields": {
+            "name": "Football",
+            "description": "Centers around the sport of football (known in the USA as \"soccer\").",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 198,
+        "fields": {
+            "name": "Foreign",
+            "description": "Partly or completely set in a country outside the country of origin.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1277,
+        "fields": {
+            "name": "Found Family",
+            "description": "Features a group of characters with no biological relations that are united in a group providing social support.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 226,
+        "fields": {
+            "name": "Fugitive",
+            "description": "Prominently features a character evading capture by an individual or organization.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 89,
+        "fields": {
+            "name": "Full CGI",
+            "description": "Almost entirely created with computer-generated imagery.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 207,
+        "fields": {
+            "name": "Full Color",
+            "description": "Manga fully colored or drawn in color.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 188,
+        "fields": {
+            "name": "Futanari",
+            "description": "Features female characters with male genitalia.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 91,
+        "fields": {
+            "name": "Gambling",
+            "description": "Centers around the act of gambling.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 106,
+        "fields": {
+            "name": "Gangs",
+            "description": "Centers around gang organizations.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 77,
+        "fields": {
+            "name": "Gender Bending",
+            "description": "Prominently features a character who dresses and behaves in a way characteristic of another gender, or has been transformed into a person of another gender.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 220,
+        "fields": {
+            "name": "Ghost",
+            "description": "Prominently features a character who is a ghost.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 443,
+        "fields": {
+            "name": "Go",
+            "description": "Centered around the game of Go.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 480,
+        "fields": {
+            "name": "Goblin",
+            "description": "A goblin is a monstrous creature from European folklore. They are almost always small and grotesque, mischievous or outright malicious, and greedy. Sometimes with magical abilities.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 253,
+        "fields": {
+            "name": "Gods",
+            "description": "Prominently features a character of divine or religious nature.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 532,
+        "fields": {
+            "name": "Golf",
+            "description": "Centers around the sport of golf.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 94,
+        "fields": {
+            "name": "Gore",
+            "description": "Prominently features graphic bloodshed and violence.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 830,
+        "fields": {
+            "name": "Group Sex",
+            "description": "Features more than two participants engaged in sex simultaneously.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 157,
+        "fields": {
+            "name": "Guns",
+            "description": "Prominently features the use of guns in combat.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 356,
+        "fields": {
+            "name": "Gyaru",
+            "description": "Prominently features a female character who has a distinct American-emulated fashion style, such as tanned skin, bleached hair, and excessive makeup. Also known as gal.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1591,
+        "fields": {
+            "name": "Hair Pulling",
+            "description": "A sexual act in which the giver will grab the receivers hair and tug whilst giving pleasure from behind.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1396,
+        "fields": {
+            "name": "Handball",
+            "description": "Centers around the sport of handball.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 317,
+        "fields": {
+            "name": "Handjob",
+            "description": "Features the stimulation of genitalia by another's hands.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 99,
+        "fields": {
+            "name": "Henshin",
+            "description": "Prominently features character or costume transformations which often grant special abilities.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1045,
+        "fields": {
+            "name": "Heterosexual",
+            "description": "Prominently features a romance between a man and a woman, not inherently sexual.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 282,
+        "fields": {
+            "name": "Hikikomori",
+            "description": "Prominently features a character who withdraws from social life, often seeking extreme isolation.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1615,
+        "fields": {
+            "name": "Hip-hop Music",
+            "description": "Centers on the musical style of hip-hop, not to be applied to anime that use hip-hop in its soundtrack.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 25,
+        "fields": {
+            "name": "Historical",
+            "description": "Partly or completely set during a real period of world history.",
+            "category": "Setting-Time",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1379,
+        "fields": {
+            "name": "Homeless",
+            "description": "Prominently features a character that is homeless.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1525,
+        "fields": {
+            "name": "Horticulture",
+            "description": "The story prominently features plant care and gardening.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 181,
+        "fields": {
+            "name": "Human Pet",
+            "description": "Features characters in a master-slave relationship where one is the \"owner\" and the other is a \"pet.\"",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1367,
+        "fields": {
+            "name": "Hypersexuality",
+            "description": "Portrays a character with a hypersexuality disorder, compulsive sexual behavior, or sex addiction.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 228,
+        "fields": {
+            "name": "Ice Skating",
+            "description": "Centers around the sport of ice skating.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 115,
+        "fields": {
+            "name": "Idol",
+            "description": "Centers around the life and activities of an idol.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 128,
+        "fields": {
+            "name": "Incest",
+            "description": "Features sexual or romantic relations between characters who are related by blood.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1523,
+        "fields": {
+            "name": "Inn",
+            "description": "Partially or completely set in an Inn or Hotel.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1102,
+        "fields": {
+            "name": "Inseki",
+            "description": "Features sexual or romantic relations among step, adopted, and other non-blood related family members.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 359,
+        "fields": {
+            "name": "Irrumatio",
+            "description": "Oral rape; features a character thrusting their genitalia or a phallic object into the mouth of another character.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 244,
+        "fields": {
+            "name": "Isekai",
+            "description": "Features characters being transported into an alternate world setting and having to adapt to their new surroundings.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 81,
+        "fields": {
+            "name": "Iyashikei",
+            "description": "Primary aim is to heal the audience through serene depictions of characters' daily lives.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1672,
+        "fields": {
+            "name": "Jazz Music",
+            "description": "Centers on the musical style of jazz, not to be applied to anime that use jazz in its soundtrack.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 27,
+        "fields": {
+            "name": "Josei",
+            "description": "Target demographic is adult females.",
+            "category": "Demographic",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1105,
+        "fields": {
+            "name": "Judo",
+            "description": "Centers around the sport of judo.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 276,
+        "fields": {
+            "name": "Kaiju",
+            "description": "Prominently features giant monsters.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 182,
+        "fields": {
+            "name": "Karuta",
+            "description": "Centers around the game of karuta.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 254,
+        "fields": {
+            "name": "Kemonomimi",
+            "description": "Prominently features humanoid characters with animal ears.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 28,
+        "fields": {
+            "name": "Kids",
+            "description": "Target demographic is young children.",
+            "category": "Demographic",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1419,
+        "fields": {
+            "name": "Kingdom Management",
+            "description": "Characters in these series take on the responsibility of running a town or kingdom, whether they take control of an existing one, or build their own from the ground up.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1607,
+        "fields": {
+            "name": "Konbini",
+            "description": "Predominantly features a convenience store.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 779,
+        "fields": {
+            "name": "Kuudere",
+            "description": "Prominently features a character who generally retains a cold, blunt and cynical exterior, but once one gets to know them, they have a very warm and loving interior.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 437,
+        "fields": {
+            "name": "Lacrosse",
+            "description": "A team game played with a ball and lacrosse sticks.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 650,
+        "fields": {
+            "name": "Lactation",
+            "description": "Features breast milk play and production.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 516,
+        "fields": {
+            "name": "Language Barrier",
+            "description": "A barrier to communication between people who are unable to speak a common language.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 137,
+        "fields": {
+            "name": "Large Breasts",
+            "description": "Features a character with larger-than-average breasts.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 483,
+        "fields": {
+            "name": "LGBTQ+ Themes",
+            "description": "Prominently features characters or themes associated with the LGBTQ+ community, such as sexuality or gender identity.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 466,
+        "fields": {
+            "name": "Lost Civilization",
+            "description": "Featuring a civilization with few ruins or records that exist in present day knowledge.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 139,
+        "fields": {
+            "name": "Love Triangle",
+            "description": "Centered around romantic feelings between more than two people. Includes all love polygons.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 107,
+        "fields": {
+            "name": "Mafia",
+            "description": "Centered around Italian organised crime syndicates.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 29,
+        "fields": {
+            "name": "Magic",
+            "description": "Prominently features magical elements or the use of magic.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 117,
+        "fields": {
+            "name": "Mahjong",
+            "description": "Centered around the game of mahjong.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 249,
+        "fields": {
+            "name": "Maids",
+            "description": "Prominently features a character who is a maid.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1140,
+        "fields": {
+            "name": "Makeup",
+            "description": "Centers around the makeup industry.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 123,
+        "fields": {
+            "name": "Male Harem",
+            "description": "Main cast features the protagonist plus several male characters who are romantically interested in them.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1450,
+        "fields": {
+            "name": "Male Pregnancy",
+            "description": "Features pregnant male characters in a sexual context.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 82,
+        "fields": {
+            "name": "Male Protagonist",
+            "description": "Main character is male.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1433,
+        "fields": {
+            "name": "Marriage",
+            "description": "Centers around marriage between two or more characters.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 30,
+        "fields": {
+            "name": "Martial Arts",
+            "description": "Centers around the use of traditional hand-to-hand combat.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 999,
+        "fields": {
+            "name": "Masochism",
+            "description": "Prominently features characters who get sexual pleasure from being hurt or controlled by others.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 131,
+        "fields": {
+            "name": "Masturbation",
+            "description": "Features erotic stimulation of one's own genitalia or other erogenous regions.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1624,
+        "fields": {
+            "name": "Matchmaking",
+            "description": "Prominently features either a matchmaker or events with the intent of matchmaking with eventual marriage in sight.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1653,
+        "fields": {
+            "name": "Mating Press",
+            "description": "Features the sex position in which two partners face each other, with one of them thrusting downwards and the other's legs tucked up towards their head.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1526,
+        "fields": {
+            "name": "Matriarchy",
+            "description": "Prominently features a country that is ruled by a Queen or a society that is dominated by female inheritance.",
+            "category": "Setting",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 659,
+        "fields": {
+            "name": "Medicine",
+            "description": "Centered around the activities of people working in the field of medicine.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 365,
+        "fields": {
+            "name": "Memory Manipulation",
+            "description": "Prominently features a character(s) who has had their memories altered.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 558,
+        "fields": {
+            "name": "Mermaid",
+            "description": "A mythological creature with the body of a human and the tail of a fish.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 144,
+        "fields": {
+            "name": "Meta",
+            "description": "Features fourth wall-breaking references to itself or genre tropes.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1675,
+        "fields": {
+            "name": "Metal Music",
+            "description": "Centers on the musical style of metal, not to be applied to anime that use metal in its soundtrack.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 187,
+        "fields": {
+            "name": "MILF",
+            "description": "Features sexual intercourse with older women.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 34,
+        "fields": {
+            "name": "Military",
+            "description": "Centered around the life and activities of military personnel.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1361,
+        "fields": {
+            "name": "Mixed Gender Harem",
+            "description": "Main cast features the protagonist plus several people, regardless of gender, who are romantically interested in them.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1090,
+        "fields": {
+            "name": "Monster Boy",
+            "description": "Prominently features a male character who is a part-monster.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 259,
+        "fields": {
+            "name": "Monster Girl",
+            "description": "Prominently features a female character who is part-monster.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 176,
+        "fields": {
+            "name": "Mopeds",
+            "description": "Prominently features mopeds.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 173,
+        "fields": {
+            "name": "Motorcycles",
+            "description": "Prominently features the use of motorcycles.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1544,
+        "fields": {
+            "name": "Mountaineering",
+            "description": "Prominently features characters discussing or hiking mountains.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 265,
+        "fields": {
+            "name": "Musical Theater",
+            "description": "Features a performance that combines songs, spoken dialogue, acting, and dance.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 208,
+        "fields": {
+            "name": "Mythology",
+            "description": "Prominently features mythological elements, especially those from religious or cultural tradition.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 125,
+        "fields": {
+            "name": "Nakadashi",
+            "description": "Creampie; features sexual ejaculation inside of a character.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1501,
+        "fields": {
+            "name": "Natural Disaster",
+            "description": "It focuses on catastrophic events of natural origin, such as earthquakes, tsunamis,  volcanic eruptions, and severe storms. These works often present situations of extreme danger in which the characters struggle to survive and overcome the adversity.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1243,
+        "fields": {
+            "name": "Necromancy",
+            "description": "When the dead are summoned as spirits, skeletons, or the undead, usually for the purpose of gaining information or to be used as a weapon.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 113,
+        "fields": {
+            "name": "Nekomimi",
+            "description": "Humanoid characters with cat-like features such as cat ears and a tail.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 124,
+        "fields": {
+            "name": "Netorare",
+            "description": "NTR; features a character with a partner shown being intimate with someone else.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 280,
+        "fields": {
+            "name": "Netorase",
+            "description": "Features characters in a romantic relationship who agree to be sexually intimate with others.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 316,
+        "fields": {
+            "name": "Netori",
+            "description": "Features a character shown being intimate with the partner of another character. The opposite of netorare.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 255,
+        "fields": {
+            "name": "Ninja",
+            "description": "Prominently features Japanese warriors traditionally trained in espionage, sabotage and assasination.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 341,
+        "fields": {
+            "name": "No Dialogue",
+            "description": "This work contains no dialogue.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 327,
+        "fields": {
+            "name": "Noir",
+            "description": "Stylized as a cynical crime drama with low-key visuals.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1337,
+        "fields": {
+            "name": "Non-fiction",
+            "description": "A work that provides information regarding a real world topic and does not focus on an imaginary narrative.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 100,
+        "fields": {
+            "name": "Nudity",
+            "description": "Features a character wearing no clothing or exposing intimate body parts.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 614,
+        "fields": {
+            "name": "Nun",
+            "description": "Prominently features a character who is a nun.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1571,
+        "fields": {
+            "name": "Office",
+            "description": "Features people who work in a business office.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 653,
+        "fields": {
+            "name": "Office Lady",
+            "description": "Prominently features a female office worker or OL.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 593,
+        "fields": {
+            "name": "Oiran",
+            "description": "Prominently features a courtesan character of the Japanese Edo Period.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 780,
+        "fields": {
+            "name": "Ojou-sama",
+            "description": "Features a wealthy, high-class, oftentimes stuck up and demanding female character.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 533,
+        "fields": {
+            "name": "Omegaverse",
+            "description": "Alternative universe that prominently features dynamics modeled after wolves in which there are alphas, betas, and omegas and heat cycles as well as impregnation, regardless of gender.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1382,
+        "fields": {
+            "name": "Orphan",
+            "description": "Prominently features a character that is an orphan.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 97,
+        "fields": {
+            "name": "Otaku Culture",
+            "description": "Centers around the culture of a fanatical fan-base.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 262,
+        "fields": {
+            "name": "Outdoor",
+            "description": "Centers around hiking, camping or other outdoor activities.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 874,
+        "fields": {
+            "name": "Pandemic",
+            "description": "Prominently features a disease prevalent over a whole country or the world.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1645,
+        "fields": {
+            "name": "Parenthood",
+            "description": "Centers around the experience of raising a child.",
+            "category": "Theme-Slice of Life",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 949,
+        "fields": {
+            "name": "Parkour",
+            "description": "Centers around the sport of parkour.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 39,
+        "fields": {
+            "name": "Parody",
+            "description": "Features deliberate exaggeration of popular tropes or a particular genre to comedic effect.",
+            "category": "Theme-Comedy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1515,
+        "fields": {
+            "name": "Pet Play",
+            "description": "Treating a participant as though they were a pet animal. Often involves a collar and possibly BDSM.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 391,
+        "fields": {
+            "name": "Philosophy",
+            "description": "Relating or devoted to the study of the fundamental nature of knowledge, reality, and existence.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 195,
+        "fields": {
+            "name": "Photography",
+            "description": "Centers around the use of cameras to capture photos.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 201,
+        "fields": {
+            "name": "Pirates",
+            "description": "Prominently features sea-faring adventurers branded as criminals by the law.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 183,
+        "fields": {
+            "name": "Poker",
+            "description": "Centers around the game of poker or its variations.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 40,
+        "fields": {
+            "name": "Police",
+            "description": "Centers around the life and activities of law enforcement officers.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 103,
+        "fields": {
+            "name": "Politics",
+            "description": "Centers around politics, politicians, or government activities.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1459,
+        "fields": {
+            "name": "Polyamorous",
+            "description": "Features a character who is in a consenting relationship with multiple people at one time.",
+            "category": "Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 93,
+        "fields": {
+            "name": "Post-Apocalyptic",
+            "description": "Partly or completely set in a world or civilization after a global disaster.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 215,
+        "fields": {
+            "name": "POV",
+            "description": "Point of View; features scenes shown from the perspective of the series protagonist.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 397,
+        "fields": {
+            "name": "Pregnant",
+            "description": "Features pregnant female characters in a sexual context.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 109,
+        "fields": {
+            "name": "Primarily Adult Cast",
+            "description": "Main cast is mostly composed of characters above a high school age.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1601,
+        "fields": {
+            "name": "Primarily Animal Cast",
+            "description": "Main cast is mostly composed animal or animal-like characters.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 446,
+        "fields": {
+            "name": "Primarily Child Cast",
+            "description": "Main cast is mostly composed of characters below a high school age.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 86,
+        "fields": {
+            "name": "Primarily Female Cast",
+            "description": "Main cast is mostly composed of female characters.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 88,
+        "fields": {
+            "name": "Primarily Male Cast",
+            "description": "Main cast is mostly composed of male characters.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1228,
+        "fields": {
+            "name": "Primarily Teen Cast",
+            "description": "Main cast is mostly composed of teen characters.",
+            "category": "Cast-Main Cast",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1427,
+        "fields": {
+            "name": "Prison",
+            "description": "Partly or completely set in a prison.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 190,
+        "fields": {
+            "name": "Prostitution",
+            "description": "Features characters who are paid for sexual favors.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1490,
+        "fields": {
+            "name": "Proxy Battle",
+            "description": "A proxy battle is a battle where humans use creatures/robots to do the fighting for them, either by commanding those creatures/robots or by simply evolving them/changing them into battle mode.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1670,
+        "fields": {
+            "name": "Psychosexual",
+            "description": "Work that involves the psychological aspects of sexual impulses.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 127,
+        "fields": {
+            "name": "Public Sex",
+            "description": "Features sexual acts performed in public settings.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 325,
+        "fields": {
+            "name": "Puppetry",
+            "description": "Animation style involving the manipulation of puppets to act out scenes.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 481,
+        "fields": {
+            "name": "Rakugo",
+            "description": "Rakugo is the traditional Japanese performance art of comic storytelling.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 155,
+        "fields": {
+            "name": "Rape",
+            "description": "Features non-consensual sexual penetration.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 160,
+        "fields": {
+            "name": "Real Robot",
+            "description": "Prominently features mechanical designs loosely influenced by real-world robotics.",
+            "category": "Theme-Sci-Fi-Mecha",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 311,
+        "fields": {
+            "name": "Rehabilitation",
+            "description": "Prominently features the recovery of a character who became incapable of social life or work.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 243,
+        "fields": {
+            "name": "Reincarnation",
+            "description": "Features a character being born again after death, typically as another person or in another world.",
+            "category": "Theme-Other",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1091,
+        "fields": {
+            "name": "Religion",
+            "description": "Centers on the belief that humanity is related to supernatural, transcendental, and spiritual elements.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1647,
+        "fields": {
+            "name": "Restaurant ",
+            "description": "Features a business that prepares and serves food and drinks to customers. Also encompasses cafes and bistros.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 252,
+        "fields": {
+            "name": "Revenge",
+            "description": "Prominently features a character who aims to exact punishment in a resentful or vindictive manner.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 845,
+        "fields": {
+            "name": "Rimjob",
+            "description": "Features oral sex performed on the anus.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 175,
+        "fields": {
+            "name": "Robots",
+            "description": "Prominently features humanoid machines.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1674,
+        "fields": {
+            "name": "Rock Music",
+            "description": "Centers on the musical style of rock, not to be applied to anime that use rock in its soundtrack.",
+            "category": "Theme-Arts-Music",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 683,
+        "fields": {
+            "name": "Rotoscoping",
+            "description": "Animation technique that animators use to trace over motion picture footage, frame by frame, to produce realistic action.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1327,
+        "fields": {
+            "name": "Royal Affairs",
+            "description": "Features nobility, alliances, arranged marriage, succession disputes, religious orders and other elements of royal politics.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 221,
+        "fields": {
+            "name": "Rugby",
+            "description": "Centers around the sport of rugby.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 250,
+        "fields": {
+            "name": "Rural",
+            "description": "Partly or completely set in the countryside.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 723,
+        "fields": {
+            "name": "Sadism",
+            "description": "Prominently features characters deriving pleasure, especially sexual gratification, from inflicting pain, suffering, or humiliation on others.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 291,
+        "fields": {
+            "name": "Samurai",
+            "description": "Prominently features warriors of medieval Japanese nobility bound by a code of honor.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 80,
+        "fields": {
+            "name": "Satire",
+            "description": "Prominently features the use of comedy or ridicule to expose and criticise social phenomena.",
+            "category": "Theme-Comedy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 387,
+        "fields": {
+            "name": "Scat",
+            "description": "Lots of feces.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 46,
+        "fields": {
+            "name": "School",
+            "description": "Partly or completely set in a primary or secondary educational institution.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 84,
+        "fields": {
+            "name": "School Club",
+            "description": "Partly or completely set in a school club scene.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1039,
+        "fields": {
+            "name": "Scissoring",
+            "description": "A form of sexual activity between women in which the genitals are stimulated by being rubbed against one another.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 811,
+        "fields": {
+            "name": "Scuba Diving",
+            "description": "Prominently features characters diving with the aid of special breathing equipment.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 50,
+        "fields": {
+            "name": "Seinen",
+            "description": "Target demographic is adult males.",
+            "category": "Demographic",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 133,
+        "fields": {
+            "name": "Sex Toys",
+            "description": "Features objects that are designed to stimulate sexual pleasure.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 772,
+        "fields": {
+            "name": "Shapeshifting",
+            "description": "Features character(s) who changes one's appearance or form.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 305,
+        "fields": {
+            "name": "Ships",
+            "description": "Prominently features the use of sea-based transportation vessels.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 121,
+        "fields": {
+            "name": "Shogi",
+            "description": "Centers around the game of shogi.",
+            "category": "Theme-Game-Card & Board Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 53,
+        "fields": {
+            "name": "Shoujo",
+            "description": "Target demographic is teenage and young adult females.",
+            "category": "Demographic",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 56,
+        "fields": {
+            "name": "Shounen",
+            "description": "Target demographic is teenage and young adult males.",
+            "category": "Demographic",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 468,
+        "fields": {
+            "name": "Shrine Maiden",
+            "description": "Prominently features a character who is a shrine maiden.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 809,
+        "fields": {
+            "name": "Skateboarding",
+            "description": "Centers around or prominently features skateboarding as a sport.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 499,
+        "fields": {
+            "name": "Skeleton",
+            "description": "Prominently features skeleton(s) as a character.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 83,
+        "fields": {
+            "name": "Slapstick",
+            "description": "Prominently features comedy based on deliberately clumsy actions or embarrassing events.",
+            "category": "Theme-Comedy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 247,
+        "fields": {
+            "name": "Slavery",
+            "description": "Prominently features slaves, slavery, or slave trade.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1616,
+        "fields": {
+            "name": "Snowscape",
+            "description": "Prominently or partially set in a snowy environment.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 386,
+        "fields": {
+            "name": "Software Development",
+            "description": "Centers around characters developing or programming a piece of technology, software, gaming, etc.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 63,
+        "fields": {
+            "name": "Space",
+            "description": "Partly or completely set in outer space.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 162,
+        "fields": {
+            "name": "Space Opera",
+            "description": "Centers around space warfare, advanced technology, chivalric romance and adventure.",
+            "category": "Theme-Sci-Fi",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1292,
+        "fields": {
+            "name": "Spearplay",
+            "description": "Prominently features the use of spears in combat.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1235,
+        "fields": {
+            "name": "Squirting",
+            "description": "Female ejaculation; features the expulsion of liquid from the female genitalia.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 95,
+        "fields": {
+            "name": "Steampunk",
+            "description": "Prominently features technology and designs inspired by 19th-century industrial steam-powered machinery.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 323,
+        "fields": {
+            "name": "Stop Motion",
+            "description": "Animation style characterized by physical objects being moved incrementally between frames to create the illusion of movement.",
+            "category": "Technical",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 665,
+        "fields": {
+            "name": "Succubus",
+            "description": "Prominently features a character who is a succubus, a creature in medieval folklore that typically uses their sexual prowess to trap and seduce people to feed off them.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1046,
+        "fields": {
+            "name": "Suicide",
+            "description": "The act or an instance of taking or attempting to take one's own life voluntarily and intentionally.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 360,
+        "fields": {
+            "name": "Sumata",
+            "description": "Pussyjob; features the stimulation of male genitalia by the thighs and labia majora of a female character.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1080,
+        "fields": {
+            "name": "Sumo",
+            "description": "Centers around the sport of sumo.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 66,
+        "fields": {
+            "name": "Super Power",
+            "description": "Prominently features characters with special abilities that allow them to do what would normally be physically or logically impossible.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 159,
+        "fields": {
+            "name": "Super Robot",
+            "description": "Prominently features large robots often piloted by hot-blooded protagonists.",
+            "category": "Theme-Sci-Fi-Mecha",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 172,
+        "fields": {
+            "name": "Superhero",
+            "description": "Prominently features super-powered humans who aim to serve the greater good.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 678,
+        "fields": {
+            "name": "Surfing",
+            "description": "Centers around surfing as a sport.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 281,
+        "fields": {
+            "name": "Surreal Comedy",
+            "description": "Prominently features comedic moments that defy casual reasoning, resulting in illogical events.",
+            "category": "Theme-Comedy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 143,
+        "fields": {
+            "name": "Survival",
+            "description": "Centers around the struggle to live in spite of extreme obstacles.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 630,
+        "fields": {
+            "name": "Sweat",
+            "description": "Lots of sweat.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 150,
+        "fields": {
+            "name": "Swimming",
+            "description": "Centers around the sport of swimming.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 43,
+        "fields": {
+            "name": "Swordplay",
+            "description": "Prominently features the use of swords in combat.",
+            "category": "Theme-Action",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 120,
+        "fields": {
+            "name": "Table Tennis",
+            "description": "Centers around the sport of table tennis (also known as \"ping pong\").",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 174,
+        "fields": {
+            "name": "Tanks",
+            "description": "Prominently features the use of tanks or other armoured vehicles.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 335,
+        "fields": {
+            "name": "Tanned Skin",
+            "description": "Prominently features characters with tanned skin.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 165,
+        "fields": {
+            "name": "Teacher",
+            "description": "Protagonist is an educator, usually in a school setting.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 649,
+        "fields": {
+            "name": "Teens' Love",
+            "description": "Sexually explicit love-story between individuals of the opposite sex, specifically targeting females of teens and young adult age.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 194,
+        "fields": {
+            "name": "Tennis",
+            "description": "Centers around the sport of tennis.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 189,
+        "fields": {
+            "name": "Tentacles",
+            "description": "Features the long appendages most commonly associated with octopuses or squid, often sexually penetrating a character.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 285,
+        "fields": {
+            "name": "Terrorism",
+            "description": "Centers around the activities of a terrorist or terrorist organization.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 132,
+        "fields": {
+            "name": "Threesome",
+            "description": "Features sexual acts between three people.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1596,
+        "fields": {
+            "name": "Time Loop",
+            "description": "A character is stuck in a repetitive cycle that they are attempting to break out of. This is distinct from a manipulating time of their own choice.",
+            "category": "Theme-Sci-Fi",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 96,
+        "fields": {
+            "name": "Time Manipulation",
+            "description": "Prominently features time-traveling or other time-warping phenomena.",
+            "category": "Theme-Sci-Fi",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 153,
+        "fields": {
+            "name": "Time Skip",
+            "description": "Features a gap in time used to advance the story.",
+            "category": "Setting-Time",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 513,
+        "fields": {
+            "name": "Tokusatsu",
+            "description": "Prominently features elements that resemble special effects in Japanese live-action shows",
+            "category": "Theme-Sci-Fi",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 931,
+        "fields": {
+            "name": "Tomboy",
+            "description": "Features a girl who exhibits characteristics or behaviors considered in many cultures to be typical of boys.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1121,
+        "fields": {
+            "name": "Torture",
+            "description": "The act of deliberately inflicting severe pain or suffering upon another individual or oneself as a punishment or with a specific purpose.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 85,
+        "fields": {
+            "name": "Tragedy",
+            "description": "Centers around tragic events and unhappy endings.",
+            "category": "Theme-Drama",
+            "is_general_spoiler": true
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 122,
+        "fields": {
+            "name": "Trains",
+            "description": "Prominently features trains.",
+            "category": "Theme-Other-Vehicle",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1165,
+        "fields": {
+            "name": "Transgender",
+            "description": "Features a character whose gender identity differs from the sex they were assigned at birth.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1310,
+        "fields": {
+            "name": "Travel",
+            "description": "Centers around character(s) moving between places a significant distance apart.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 214,
+        "fields": {
+            "name": "Triads",
+            "description": "Centered around Chinese organised crime syndicates.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 164,
+        "fields": {
+            "name": "Tsundere",
+            "description": "Prominently features a character who acts cold and hostile in order to mask warmer emotions.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 494,
+        "fields": {
+            "name": "Twins",
+            "description": "Prominently features two or more siblings that were born at one birth.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1539,
+        "fields": {
+            "name": "Unrequited Love",
+            "description": "One or more characters are experiencing an unrequited love that may or may not be reciprocated.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 595,
+        "fields": {
+            "name": "Urban",
+            "description": "Partly or completely set in a city.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 321,
+        "fields": {
+            "name": "Urban Fantasy",
+            "description": "Set in a world similar to the real world, but with the existence of magic or other supernatural elements.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 74,
+        "fields": {
+            "name": "Vampire",
+            "description": "Prominently features a character who is a vampire.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1574,
+        "fields": {
+            "name": "Veterinarian",
+            "description": "Prominently features a veterinarian or one of the main characters is a veterinarian.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 308,
+        "fields": {
+            "name": "Video Games",
+            "description": "Centers around characters playing video games.",
+            "category": "Theme-Game",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 618,
+        "fields": {
+            "name": "Vikings",
+            "description": "Prominently features Scandinavian seafaring pirates and warriors.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 857,
+        "fields": {
+            "name": "Villainess",
+            "description": "Centers around or prominently features a villainous noble lady.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 380,
+        "fields": {
+            "name": "Virginity",
+            "description": "Features a male character who has never had sexual relations (until now).",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 112,
+        "fields": {
+            "name": "Virtual World",
+            "description": "Partly or completely set in the world inside a video game.",
+            "category": "Setting-Universe",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 116,
+        "fields": {
+            "name": "Volleyball",
+            "description": "Centers around the sport of volleyball.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 624,
+        "fields": {
+            "name": "Vore",
+            "description": "Features a character being swallowed or swallowing another creature whole.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 318,
+        "fields": {
+            "name": "Voyeur",
+            "description": "Features a character who enjoys seeing the sex acts or sex organs of others.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1047,
+        "fields": {
+            "name": "VTuber",
+            "description": "Prominently features a character who is either an actual or fictive VTuber.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 111,
+        "fields": {
+            "name": "War",
+            "description": "Partly or completely set during wartime.",
+            "category": "Theme-Other",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 180,
+        "fields": {
+            "name": "Watersports",
+            "description": "Features sexual situations involving urine.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 534,
+        "fields": {
+            "name": "Werewolf",
+            "description": "Prominently features a character who is a werewolf.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 179,
+        "fields": {
+            "name": "Witch",
+            "description": "Prominently features a character who is a witch.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 145,
+        "fields": {
+            "name": "Work",
+            "description": "Centers around the activities of a certain occupation.",
+            "category": "Setting-Scene",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 231,
+        "fields": {
+            "name": "Wrestling",
+            "description": "Centers around the sport of wrestling.",
+            "category": "Theme-Game-Sport",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 394,
+        "fields": {
+            "name": "Writing",
+            "description": "Centers around the profession of writing books or novels.",
+            "category": "Theme-Arts",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 303,
+        "fields": {
+            "name": "Wuxia",
+            "description": "Chinese fiction concerning the adventures of martial artists in Ancient China.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 199,
+        "fields": {
+            "name": "Yakuza",
+            "description": "Centered around Japanese organised crime syndicates.",
+            "category": "Theme-Other-Organisations",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 163,
+        "fields": {
+            "name": "Yandere",
+            "description": "Prominently features a character who is obsessively in love with another, to the point of acting deranged or violent.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 233,
+        "fields": {
+            "name": "Youkai",
+            "description": "Prominently features supernatural creatures from Japanese folklore.",
+            "category": "Theme-Fantasy",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 76,
+        "fields": {
+            "name": "Yuri",
+            "description": "Prominently features romance between two females, not inherently sexual. Also known as Girls' Love.",
+            "category": "Theme-Romance",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 152,
+        "fields": {
+            "name": "Zombie",
+            "description": "Prominently features reanimated corpses which often prey on live humans and turn them into zombies.",
+            "category": "Cast-Traits",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1446,
+        "fields": {
+            "name": "Zoophilia",
+            "description": "Features a character who has a sexual attraction for non-human animals.",
+            "category": "Sexual Content",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1800,
+        "fields": {
+            "name": "Action",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1810,
+        "fields": {
+            "name": "Adventure",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1820,
+        "fields": {
+            "name": "Comedy",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1830,
+        "fields": {
+            "name": "Drama",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1840,
+        "fields": {
+            "name": "Ecchi",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1850,
+        "fields": {
+            "name": "Fantasy",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1860,
+        "fields": {
+            "name": "Hentai",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1870,
+        "fields": {
+            "name": "Horror",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1880,
+        "fields": {
+            "name": "Mahou Shoujo",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1890,
+        "fields": {
+            "name": "Mecha",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1900,
+        "fields": {
+            "name": "Music",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1910,
+        "fields": {
+            "name": "Mystery",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1920,
+        "fields": {
+            "name": "Psychological",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1930,
+        "fields": {
+            "name": "Romance",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1940,
+        "fields": {
+            "name": "Sci-Fi",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1950,
+        "fields": {
+            "name": "Slice of Life",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1960,
+        "fields": {
+            "name": "Sports",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1970,
+        "fields": {
+            "name": "Supernatural",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    },
+    {
+        "model": "base.tag",
+        "pk": 1980,
+        "fields": {
+            "name": "Thriller",
+            "description": "",
+            "category": "Genre",
+            "is_general_spoiler": false
+        }
+    }
+]
