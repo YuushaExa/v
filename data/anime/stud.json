@@ -1,0 +1,1868 @@
+[
+  {
+    "media": [
+      {
+        "id": 1,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Sunrise"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "bones"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Sunrise"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Manga Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "MADHOUSE"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Nippon Victor"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Arts Pro"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Sunrise"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Toei Animation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Dentsu"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 15,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio Gallop"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NAS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Nihon Ad Systems"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo Music"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Animation Planet"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "J.C.STAFF"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Nomad"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Genco"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Viz Media"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Asmik Ace"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Dentsu"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Discotek"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Nippon Animation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "OB Planning"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "A.C.G.T."
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Studio Jack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 19,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "MADHOUSE"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "VAP"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Viz Media"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Nippon Television Network"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 20,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio Pierrot"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Aniplex"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Viz Media"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Shueisha"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "KSS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "SME Visual Works"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Rakuonsha"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 21,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Toei Animation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "4Kids Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TAP"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Asatsu DK"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Magic Bus"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Mushi Production"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Studio Guts"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Asahi Production"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Avex Pictures"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 22,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Production I.G"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Trans Arts"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Viz Media"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NAS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Toei Animation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Marvelous Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 24,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sotsu"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Marvelous Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Starchild Records"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Media Factory"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio Comet"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "DAX Production"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Studio Jack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 25,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "GONZO"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "GDH"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Pony Canyon"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "CBC"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 26,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "MADHOUSE"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Group TAC"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Rondo Robe"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Pioneer LDC"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 27,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "GONZO"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 28,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Sunrise"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Aniplex"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "d-rights"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "NBCUniversal Entertainment Japan"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio DEEN"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Marvelous Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 30,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Gainax"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "ADV Films"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kadokawa Shoten"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NAS"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Tatsunoko Production"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "GKIDS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Madman Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 31,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Gainax"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Production I.G"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Movic"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sega Games"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo Music"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kadokawa Shoten"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 32,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Gainax"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Production I.G"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Toei Animation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kadokawa Shoten"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Movic"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sega Games"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo Music"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Selecta Visión"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 33,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "OLM"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "VAP"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Media Blasters"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NYAV Post"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Nippon Television Network"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Hakusensha"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 43,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Production I.G"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kodansha"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Manga Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 44,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio DEEN"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Aniplex of America"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 45,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio Gallop"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio DEEN"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "SME Visual Works"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Media Blasters"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Aniplex of America"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 46,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "Studio DEEN"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sony Music Entertainment"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Studio Gallop"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 47,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Tokyo Movie Shinsha"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Mainichi Broadcasting System"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kodansha"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Toho"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Madman Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 48,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Bee Train"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Yomiko Advertising"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "CyberConnect2"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Entertainment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 49,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "KSS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kodansha"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "AnimEigo"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "AIC"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 50,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "AIC"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TBS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Media Blasters"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NYAV Post"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 51,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Hal Film Maker"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "AIC"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Lantis"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Media Blasters"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 52,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "bones"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo Music"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 53,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "J.C.STAFF"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Movic"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Fuji TV"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Pioneer LDC"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Cosmic Ray"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 54,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "NBCUniversal Entertainment Japan"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Mainichi Broadcasting System"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Digital Frontier"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Tohokushinsha Film Corporation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Madman Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Selecta Visión"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 55,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Bee Train"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sony Pictures Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Aniplex"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "ADV Films"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 56,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Bee Train"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Yomiuri Advertising"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 57,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "MADHOUSE"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Marvelous Entertainment"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Starchild Records"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Asatsu DK"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kodansha"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 58,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "AIC"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Youmex"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Toshiba EMI"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 59,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "MADHOUSE"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "NBCUniversal Entertainment Japan"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TBS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Pioneer LDC"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 60,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "GONZO"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Lantis"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kadokawa Shoten"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 61,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Xebec"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "ADV Films"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kadokawa Shoten"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Discotek"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 62,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "feel."
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Lantis"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "ZEXCS"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 63,
+        "studios": {
+          "edges": [
+            {
+              "isMain": false,
+              "node": {
+                "name": "Bandai Visual"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Hal Film Maker"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Genco"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Lantis"
+              }
+            },
+            {
+              "isMain": true,
+              "node": {
+                "name": "Daume"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Discotek"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 64,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Nomad"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Mellow Head"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Pony Canyon"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Memory-Tech"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Studio Jack"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 65,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "Nomad"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Mellow Head"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TBS"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 66,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "J.C.STAFF"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Genco"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Lantis"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Imagica"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TV Tokyo Music"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Cosmic Ray"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Sentai Filmworks"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "J.C.STAFF"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 67,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "GONZO"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "GDH"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Kodansha"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 68,
+        "studios": {
+          "edges": [
+            {
+              "isMain": true,
+              "node": {
+                "name": "GONZO"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "GDH"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Dentsu"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "Funimation"
+              }
+            },
+            {
+              "isMain": false,
+              "node": {
+                "name": "TBS"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
