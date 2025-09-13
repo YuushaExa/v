@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epub Library Manager (with zip.js)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        #search-container {
+            margin: 20px 0;
+            display: none;
+        }
+        
+        #search-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .library {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .book-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .book-cover {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            background-color: #eee;
+        }
+        
+        .book-info {
+            padding: 15px;
+        }
+        
+        .book-title {
+            font-weight: bold;
+            margin: 0 0 5px 0;
+            font-size: 16px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .book-author {
+            color: #666;
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .book-genre {
+            color: #888;
+            margin: 0;
+            font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .loading {
+            text-align: center;
+            margin: 20px 0;
+            display: none;
+        }
+        
+        .progress-bar {
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        .progress {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        .status {
+            margin: 10px 0;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .error {
+            color: #d32f2f;
+        }
+        
+        @media (max-width: 768px) {
+            .library {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Epub Library Manager</h1>
+    
+    <div class="controls">
+        <button id="fetch-button">Fetch Novels</button>
+    </div>
+    
+    <div id="loading" class="loading">
+        <p>Processing files...</p>
+        <div class="status" id="status"></div>
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+    </div>
+    
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search by title, author, or genre...">
+    </div>
+    
+    <div id="library" class="library"></div>
+
+    <script type="module">
+        import { ZipReader, BlobReader, BlobWriter, TextWriter, Data64URIWriter } from 'https://unpkg.com/@zip.js/zip.js/index.js';
+        
+        // DOM elements
+        const fetchButton = document.getElementById('fetch-button');
+        const libraryElement = document.getElementById('library');
+        const searchContainer = document.getElementById('search-container');
+        const searchInput = document.getElementById('search-input');
+        const loadingElement = document.getElementById('loading');
+        const progressElement = document.getElementById('progress');
+        const statusElement = document.getElementById('status');
+        
+        // Store books data
+        let books = [];
+        
+        // Handle fetch button click
+        fetchButton.addEventListener('click', async () => {
+            try {
+                const input = document.createElement('input');
+                input.type = 'file';
+                input.webkitdirectory = true;
+                input.directory = true;
+                input.multiple = true;
+                
+                input.onchange = async (event) => {
+                    const files = event.target.files;
+                    if (files.length === 0) return;
+                    
+                    await processEpubFiles(files);
+                };
+                
+                input.click();
+            } catch (error) {
+                console.error('Error accessing folder:', error);
+                alert('Unable to access folder. Please make sure your browser supports folder selection.');
+            }
+        });
+        
+        // Process EPUB files with true streaming using zip.js
+        async function processEpubFiles(fileList) {
+            // Filter only epub files
+            const epubFiles = Array.from(fileList).filter(file => 
+                file.name.toLowerCase().endsWith('.epub')
+            );
+            
+            if (epubFiles.length === 0) {
+                alert('No EPUB files found in the selected folder.');
+                return;
+            }
+            
+            // Show loading indicator
+            loadingElement.style.display = 'block';
+            libraryElement.innerHTML = '';
+            books = [];
+            
+            // Process each epub file sequentially
+            for (let i = 0; i < epubFiles.length; i++) {
+                const file = epubFiles[i];
+                statusElement.textContent = `Processing: ${file.name}`;
+                
+                try {
+                    const bookData = await extractMetadataWithZipJS(file);
+                    books.push(bookData);
+                    
+                    // Update progress
+                    const progress = ((i + 1) / epubFiles.length) * 100;
+                    progressElement.style.width = `${progress}%`;
+                } catch (error) {
+                    console.error(`Error processing ${file.name}:`, error);
+                    books.push({
+                        title: file.name.split('.')[0], // Use filename without extension
+                        author: 'Unknown Author',
+                        genre: 'Unknown',
+                        coverUrl: 'https://via.placeholder.com/150?text=No+Cover',
+                        filename: file.name
+                    });
+                }
+            }
+            
+            statusElement.textContent = 'Complete!';
+            
+            // Hide loading and show results
+            setTimeout(() => {
+                loadingElement.style.display = 'none';
+                searchContainer.style.display = 'block';
+                displayBooks(books);
+            }, 500);
+        }
+        
+        // Extract metadata using zip.js with true streaming
+        async function extractMetadataWithZipJS(file) {
+            // Create a ZipReader instance
+            const zipReader = new ZipReader(new BlobReader(file));
+            
+            try {
+                // Get the entries (files) in the ZIP
+                const entries = await zipReader.getEntries();
+                
+                // First, look for container.xml to find the OPF path
+                let opfPath = null;
+                let containerEntry = null;
+                
+                // Find META-INF/container.xml
+                containerEntry = entries.find(entry => 
+                    entry.filename.includes('META-INF/container.xml')
+                );
+                
+                if (containerEntry) {
+                    try {
+                        // Stream only the container.xml file
+                        const writer = new TextWriter();
+                        const text = await containerEntry.getData(writer);
+                        
+                        const parser = new DOMParser();
+                        const xmlDoc = parser.parseFromString(text, 'text/xml');
+                        
+                        const rootfile = xmlDoc.querySelector('rootfile');
+                        if (rootfile) {
+                            opfPath = rootfile.getAttribute('full-path');
+                        }
+                    } catch (e) {
+                        console.warn('Failed to parse container.xml', e);
+                    }
+                }
+                
+                // If we couldn't find via container.xml, try to find OPF directly
+                if (!opfPath) {
+                    // Look for common OPF locations and names
+                    const potentialNames = ['content.opf', 'package.opf', 'book.opf'];
+                    
+                    for (const name of potentialNames) {
+                        const opfEntry = entries.find(entry => 
+                            entry.filename.endsWith(name)
+                        );
+                        if (opfEntry) {
+                            opfPath = opfEntry.filename;
+                            break;
+                        }
+                    }
+                    
+                    // If still not found, search for any .opf file
+                    if (!opfPath) {
+                        const opfEntry = entries.find(entry => 
+                            entry.filename.endsWith('.opf')
+                        );
+                        if (opfEntry) {
+                            opfPath = opfEntry.filename;
+                        }
+                    }
+                }
+                
+                if (!opfPath) {
+                    throw new Error('Could not find OPF file');
+                }
+                
+                // Find the OPF entry
+                const opfEntry = entries.find(entry => entry.filename === opfPath);
+                if (!opfEntry) {
+                    throw new Error(`OPF file not found at path: ${opfPath}`);
+                }
+                
+                // Stream the OPF file content
+                const opfWriter = new TextWriter();
+                const opfText = await opfEntry.getData(opfWriter);
+                
+                const parser = new DOMParser();
+                const opfDoc = parser.parseFromString(opfText, 'text/xml');
+                
+                // Extract metadata
+                const metadata = opfDoc.querySelector('metadata') || 
+                               opfDoc.querySelector('*|metadata') ||
+                               opfDoc.documentElement;
+                
+                let title = 'Unknown Title';
+                let author = 'Unknown Author';
+                let genre = 'Unknown Genre';
+                
+                // Extract title
+                const titleEl = metadata?.querySelector('title, *[local-name()="title"]');
+                if (titleEl) {
+                    title = titleEl.textContent.trim() || 'Unknown Title';
+                }
+                
+                // Extract author
+                const creatorEl = metadata?.querySelector('creator, *[local-name()="creator"]') || 
+                                metadata?.querySelector('dc\\:creator, *[local-name()="creator"]');
+                if (creatorEl) {
+                    author = creatorEl.textContent.trim() || 'Unknown Author';
+                }
+                
+                // Extract genre/subject
+                const subjectEls = metadata?.querySelectorAll('subject, *[local-name()="subject"]');
+                if (subjectEls && subjectEls.length > 0) {
+                    genre = Array.from(subjectEls).map(el => el.textContent.trim()).join(', ') || 'Unknown Genre';
+                }
+                
+                // Extract cover image - optimized search
+                let coverUrl = null;
+                const manifest = opfDoc.querySelector('manifest') || opfDoc.querySelector('*|manifest');
+                
+                if (manifest) {
+                    // Priority order for cover detection
+                    const coverSelectors = [
+                        '[properties~="cover-image"]', // Direct property match
+                        '[id*="cover"][href$=".jpg"], [id*="cover"][href$=".jpeg"], [id*="cover"][href$=".png"]', // ID contains "cover"
+                        '[href*="cover"][href$=".jpg"], [href*="cover"][href$=".jpeg"], [href*="cover"][href$=".png"]', // Href contains "cover"
+                        '[href*="Cover"][href$=".jpg"], [href*="Cover"][href$=".jpeg"], [href*="Cover"][href$=".png"]', // Case variation
+                        '[media-type^="image/"]' // Any image (fallback)
+                    ];
+                    
+                    for (const selector of coverSelectors) {
+                        const coverItem = manifest.querySelector(selector);
+                        if (coverItem) {
+                            const coverHref = coverItem.getAttribute('href');
+                            if (coverHref) {
+                                // Resolve the cover path relative to the OPF file location
+                                const opfDir = opfPath.substring(0, opfPath.lastIndexOf('/') + 1);
+                                const coverPath = opfDir + coverHref;
+                                
+                                // Find the cover entry
+                                const coverEntry = entries.find(entry => entry.filename === coverPath);
+                                if (coverEntry) {
+                                    try {
+                                        // Stream the cover image as a data URL
+                                        const coverWriter = new Data64URIWriter();
+                                        coverUrl = await coverEntry.getData(coverWriter);
+                                        break; // Found a valid cover
+                                    } catch (e) {
+                                        console.warn(`Could not load cover image: ${coverPath}`, e);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // If no cover found, use a placeholder
+                if (!coverUrl) {
+                    coverUrl = 'https://via.placeholder.com/150?text=No+Cover';
+                }
+                
+                // Close the zip reader
+                await zipReader.close();
+                
+                return {
+                    title,
+                    author,
+                    genre,
+                    coverUrl,
+                    filename: file.name
+                };
+            } catch (error) {
+                // Make sure to close the reader on error
+                await zipReader.close().catch(console.error);
+                throw error;
+            }
+        }
+        
+        // Display books in the library
+        function displayBooks(booksToDisplay) {
+            libraryElement.innerHTML = '';
+            
+            if (booksToDisplay.length === 0) {
+                libraryElement.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">No books match your search.</p>';
+                return;
+            }
+            
+            booksToDisplay.forEach(book => {
+                const bookCard = document.createElement('div');
+                bookCard.className = 'book-card';
+                
+                bookCard.innerHTML = `
+                    <img class="book-cover" src="${book.coverUrl}" alt="Cover for ${book.title}" 
+                         onerror="this.src='https://via.placeholder.com/150?text=No+Cover'">
+                    <div class="book-info">
+                        <h3 class="book-title">${escapeHtml(book.title)}</h3>
+                        <p class="book-author">${escapeHtml(book.author)}</p>
+                        <p class="book-genre">${escapeHtml(book.genre)}</p>
+                    </div>
+                `;
+                
+                libraryElement.appendChild(bookCard);
+            });
+        }
+        
+        // Basic HTML escaping to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // Search functionality
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase();
+            if (!query) {
+                displayBooks(books);
+                return;
+            }
+            
+            const filteredBooks = books.filter(book => 
+                book.title.toLowerCase().includes(query) ||
+                book.author.toLowerCase().includes(query) ||
+                book.genre.toLowerCase().includes(query)
+            );
+            
+            displayBooks(filteredBooks);
+        });
+    </script>
+</body>
+</html>
